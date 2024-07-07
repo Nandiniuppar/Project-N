@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import TopNav from './component/TopNav';
-import LandingView from './component/LandingView';
+import Approutes from './Approutes';
+
 
 function App() {
   return (
@@ -10,12 +10,14 @@ function App() {
       <div style = {{minHeight: "10vh", width :'100%', backgroundcolor: 'rgb(25 118 210 / 55%)'}}></div>
       <TopNav/>
       </header>
-
-     <div className='main-body'>
-     <h1>Welcome to my Booking Site!</h1>
+      <main>
+        <div className='main-body'>
+        <h1>Welcome to my Booking Site!</h1>
       
-      <LandingView/>
-     </div>
+          <Approutes/>
+
+        </div>
+      </main>
      <footer>
      <div style = {{minHeight: "10vh", width : '100%', backgroundColor : 'rgb(25 118 210 / 55%)'}}></div>
      </footer>
